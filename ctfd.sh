@@ -1,6 +1,8 @@
 #Written by: Samson
 #last updated: 22 December 2022
 
+#!/bin/bash
+
 # Update the package manager and install dependencies
 sudo apt-get update
 sudo apt-get install -y python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx
